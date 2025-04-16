@@ -48,7 +48,7 @@ const Hero = () => {
         >
           Hey There,
           <br />
-          <span>I'm Robert!</span>
+          <span>I'm Arbi!</span>
         </motion.h1>
         {/* AWARDS */}
         <motion.div
@@ -57,7 +57,7 @@ const Hero = () => {
           animate="animate"
           className="awards"
         >
-          <motion.h2 variants={awardVariants}>Top Rated Designer</motion.h2>
+          <motion.h2 variants={awardVariants}>IT Product Owner</motion.h2>
           <motion.p variants={awardVariants}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </motion.p>
