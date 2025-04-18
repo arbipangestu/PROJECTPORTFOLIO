@@ -1,3 +1,4 @@
+import { h1 } from "motion/react-client";
 import ComputerModelContainer from "./computer/ComputerModelContainer";
 import ConsoleModelContainer from "./console/ConsoleModelContainer";
 import Counter from "./Counter";
@@ -41,20 +42,20 @@ const services = [
   {
     id: 1,
     img: "/service1.png",
-    title: "Web Development",
-    counter: 35,
+    title: "IT Product Owner",
+    counter: "Dec 2024 - Present"
   },
   {
     id: 2,
     img: "/service2.png",
-    title: "Product Design",
-    counter: 23,
+    title: "IT Business Solutions Specialist",
+    counter: "Apr 2022 - Dec 2024",
   },
   {
     id: 3,
     img: "/service3.png",
-    title: "Branding",
-    counter: 46,
+    title: "IT Application Support",
+    counter: "Apr 2021 - Apr 2022",
   },
 ];
 
@@ -70,7 +71,7 @@ const Services = () => {
           animate={isInView ? "animate" : "initial"}
           className="sTitle"
         >
-          How do I help?
+          Experience
         </motion.h1>
         <motion.div
           variants={listVariants}
@@ -89,14 +90,14 @@ const Services = () => {
               </div>
               <div className="serviceInfo">
                 <h2>{service.title}</h2>
-                <h3>{service.counter} Projects</h3>
+                <h3>{service.counter}</h3>
               </div>
             </motion.div>
           ))}
         </motion.div>
         <div className="counterList">
-          <Counter from={0} to={104} text="Projects Completed" />
-          <Counter from={0} to={72} text="Happy Clients" />
+          <Counter from={0} to={7} text="Projects Completed" />
+          {/* <Counter from={0} to={72} text="Happy Clients" /> */}
         </div>
       </div>
       <div className="sSection right">

@@ -59,7 +59,7 @@
 }
 
 .service:nth-child(1) .serviceIcon {
-  background-color: #dd4c62;
+  background-color: #CF0F47;
 }
 .service:nth-child(2) .serviceIcon {
   background-color: #025656;
@@ -84,7 +84,7 @@
 
 .counter h1 {
   font-size: 48px;
-  color: #dd4c62;
+  color: #CF0F47;
 }
 
 .counter p {

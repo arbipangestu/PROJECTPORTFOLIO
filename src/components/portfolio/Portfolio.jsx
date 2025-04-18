@@ -5,37 +5,37 @@ import { motion, useInView, useScroll, useTransform } from "motion/react";
 const items = [
   {
     id: 1,
-    img: "/p1.jpg",
-    title: "Full Stack Blog Application",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
+    img: "/p1.jpeg",
+    title: "Stevedoring Application",
+    desc: "The Stevedoring Operation System is a robust multi-tenancy application designed to streamline and optimize the complex operations involved in stevedoring activities. This system encompasses various critical modules including Master Setup, Planning, Order Management, Realization Operational, Finance, and Reporting.",
     link: "/",
   },
   {
     id: 2,
-    img: "/p2.jpg",
-    title: "School Management System",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
+    img: "/p2.jpeg",
+    title: "E-Signature System",
+    desc: "The project focuses on developing a comprehensive digital platform that encompasses user registration, digital signature processing, document validation, and the issuance of electronic certificates with QR codes. It aims to streamline administrative processes through the integration of a PSrE system, providing users with a seamless experience in managing digital documents and signatures.",
     link: "/",
   },
   {
     id: 3,
-    img: "/p3.jpg",
-    title: "Real-time Chat Application",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
+    img: "/p3.jpeg",
+    title: "Samudera Malaysia Inland Transport System",
+    desc: "Samudera Lautan Emas Sdn. Bhd. (SLE) is a trucking company that requires information related to transactions such as quotations, agreements, job orders, planning and availability of equipment, job order progress monitoring, and a track and trace system.",
     link: "/",
   },
   {
     id: 4,
-    img: "/p4.jpg",
-    title: "Social Media Project",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
+    img: "/p4.jpeg",
+    title: "Samudera Warehouse Management System",
+    desc: "This project aims to develop a comprehensive logistics management system designed to optimize and streamline various aspects of logistics operations, including order management, shipment tracking, fleet management, and billing processes.",
     link: "/",
   },
   {
     id: 5,
-    img: "/p5.jpg",
-    title: "Animated Portfolio Website",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
+    img: "/p5.png",
+    title: "Chief Marketing Officer APPS",
+    desc: "CMO is a mobile application designed to support field teams in customer acquisition and service operations. Equipped with features such as customer data input, document uploads, and real-time application tracking, CMO enhances the efficiency, accuracy, and speed of sales and survey activities on the go.",
     link: "/",
   },
 ];
@@ -175,7 +175,7 @@ const Portfolio = () => {
             cy="80"
             r="70"
             fill="none"
-            stroke="#dd4c62"
+            stroke="#CF0F47"
             strokeWidth={20}
             style={{ pathLength: scrollYProgress }}
             transform="rotate(-90 80 80)"

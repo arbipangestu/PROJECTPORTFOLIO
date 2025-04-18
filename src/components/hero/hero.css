@@ -40,7 +40,7 @@
 .hTitle {
   margin-top: 50px;
   font-size: 100px;
-  color: pink;
+  color: #FF0B55;
 }
 
 .hTitle span {
@@ -99,7 +99,7 @@
 }
 
 .followText {
-  background-color: #dd4c62;
+  background-color: #CF0F47;
   font-size: 12px;
   rotate: 90deg;
   width: max-content;
@@ -135,7 +135,7 @@
   height: 50px;
   border-radius: 100%;
   object-fit: cover;
-  background-color: #dd4c62;
+  background-color: #CF0F47;
 }
 
 .certificate {

@@ -59,13 +59,13 @@ const Hero = () => {
         >
           <motion.h2 variants={awardVariants}>IT Product Owner</motion.h2>
           <motion.p variants={awardVariants}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Currently working as IT Product Owner @Sinarmas Multifinance
           </motion.p>
-          <motion.div variants={awardVariants} className="awardList">
+          {/* <motion.div variants={awardVariants} className="awardList">
             <motion.img variants={awardVariants} src="/award1.png" alt="" />
             <motion.img variants={awardVariants} src="/award2.png" alt="" />
             <motion.img variants={awardVariants} src="/award3.png" alt="" />
-          </motion.div>
+          </motion.div> */}
         </motion.div>
         {/* SCROLL SVG */}
         <motion.a
@@ -113,15 +113,15 @@ const Hero = () => {
           animate="animate"
           className="follow"
         >
-          <motion.a variants={followVariants} href="/">
+          <motion.a variants={followVariants} href="https://www.instagram.com/arbipangestu_/">
             <img src="/instagram.png" alt="" />
           </motion.a>
-          <motion.a variants={followVariants} href="/">
-            <img src="/facebook.png" alt="" />
+          <motion.a variants={followVariants} href="https://www.linkedin.com/in/arbipangestu/">
+            <img src="/linkedin.png" alt="" />
           </motion.a>
-          <motion.a variants={followVariants} href="/">
+          {/* <motion.a variants={followVariants} href="/">
             <img src="/youtube.png" alt="" />
-          </motion.a>
+          </motion.a> */}
           <motion.div variants={followVariants} className="followTextContainer">
             <div className="followText">FOLLOW ME</div>
           </motion.div>
@@ -134,12 +134,12 @@ const Hero = () => {
           transition={{ duration: 1 }}
           className="certificate"
         >
-          <img src="/certificate.png" alt="" />
+          {/* <img src="/certificate.png" alt="" />
           LMA CERTIFICED
           <br />
           PROFESSIONAL
           <br />
-          UI DESIGNER
+          UI DESIGNER */}
         </motion.div>
         {/* CONTACT BUTTON */}
         <motion.a
@@ -163,7 +163,7 @@ const Hero = () => {
             }}
           >
             <svg viewBox="0 0 200 200" width="150" height="150">
-              <circle cx="100" cy="100" r="90" fill="pink" />
+              <circle cx="100" cy="100" r="90" fill="#FF0B55" />
               <path
                 id="innerCirclePath"
                 fill="none"
